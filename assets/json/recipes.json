@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "name": "Thiébou Guinar",
+    "summary": "Riz au poulet traditionnel sénégalais.",
+    "description": "Le thiébou guinar est un plat à base de riz, poulet et légumes. Préparé avec amour.",
+    "ingredients": ["Riz", "Poulet", "Oignons", "Huile", "Marché Diagne", "Aubergine"],
+    "steps": ["Préparer les ingrédients", "Faire la sauce", "Cuire le riz", "Servir chaud"],
+    "imagePath": "assets/images/ThiébouGuinar.jpg",
+    "category": "Plat principal"
+  },
+  {
+    "id": "2",
+    "name": "Soupe de Légumes",
+    "summary": "Soupe chaude et réconfortante aux légumes de saison.",
+    "description": "Une soupe traditionnelle préparée avec des légumes frais mijotés dans un bouillon parfumé.",
+    "ingredients": ["Carotte", "Pomme de terre", "Chou", "Oignon", "Persil", "Bouillon de légumes"],
+    "steps": ["Couper les légumes", "Faire bouillir le bouillon", "Ajouter les légumes", "Laisser mijoter", "Servir chaud"],
+    "imagePath": "assets/images/soupe_legumes.jpg",
+    "category": "Entrée"
+  },
+  {
+    "id": "3",
+    "name": "Pizza Pepperoni",
+    "summary": "Pizza garnie de pepperoni et de mozzarella fondante.",
+    "description": "Une pizza croustillante recouverte de sauce tomate, mozzarella et tranches de pepperoni grillées.",
+    "ingredients": ["Pâte à pizza", "Sauce tomate", "Mozzarella", "Pepperoni", "Origan"],
+    "steps": ["Étaler la pâte", "Ajouter la sauce tomate", "Garnir de mozzarella et pepperoni", "Cuire au four", "Servir chaud"],
+    "imagePath": "assets/images/pizza_pepperoni.jpg",
+    "category": "Plat principal"
+  },
+  {
+    "id": "4",
+    "name": "Maki Sushi",
+    "summary": "Rouleaux de sushi garnis et enroulés de poisson fumé.",
+    "description": "Des makis délicats composés de riz vinaigré, garniture fraîche et enrobés d'une fine tranche de poisson.",
+    "ingredients": ["Riz à sushi", "Saumon fumé", "Concombre", "Avocat", "Vinaigre de riz", "Algue nori"],
+    "steps": ["Préparer le riz vinaigré", "Disposer la garniture", "Rouler le maki", "Couper en tranches", "Servir avec sauce soja"],
+    "imagePath": "assets/images/maki_sushi.jpg",
+    "category": "Entrée"
+  },
+  {
+    "id": "5",
+    "name": "Riz aux Légumes",
+    "summary": "Riz blanc accompagné de légumes sautés et radis frais.",
+    "description": "Un plat simple et coloré associant riz blanc, légumes sautés et tranches de radis croquant.",
+    "ingredients": ["Riz blanc", "Carotte", "Chou", "Radis", "Oignon", "Citron vert"],
+    "steps": ["Cuire le riz", "Faire sauter les légumes", "Disposer le riz dans l'assiette", "Ajouter les légumes et le radis", "Servir"],
+    "imagePath": "assets/images/riz_legumes.jpg",
+    "category": "Plat principal"
+  },
+  {
+    "id": "6",
+    "name": "Salade Caprese à l'Œuf",
+    "summary": "Salade fraîche de tomates, mozzarella et épinards, garnie d'un œuf.",
+    "description": "Une salade légère composée de tranches de tomates et mozzarella sur un lit d'épinards frais, surmontée d'un œuf au plat et assaisonnée d'herbes fraîches.",
+    "ingredients": ["Tomates", "Mozzarella", "Épinards frais", "Œuf", "Herbes fraîches", "Huile d'olive"],
+    "steps": ["Couper les tomates et la mozzarella en tranches", "Disposer les épinards dans l'assiette", "Ajouter les tomates et la mozzarella", "Cuire l'œuf au plat", "Assaisonner avec les herbes et l'huile"],
+    "imagePath": "assets/images/salade_caprese.jpg",
+    "category": "Entrée"
+  },
+  {
+    "id": "7",
+    "name": "Poulet Pané et Frites",
+    "summary": "Poulet croustillant pané accompagné de frites dorées.",
+    "description": "Des morceaux de poulet pané, frits jusqu'à devenir bien croustillants, servis avec des frites maison et une sauce ketchup.",
+    "ingredients": ["Filet de poulet", "Farine", "Chapelure", "Œuf", "Pommes de terre", "Huile de friture", "Ketchup"],
+    "steps": ["Couper le poulet en morceaux", "Paner le poulet (farine, œuf, chapelure)", "Frire le poulet jusqu'à doré", "Couper et frire les pommes de terre", "Servir chaud avec du ketchup"],
+    "imagePath": "assets/images/poulet_pane_frites.jpg",
+    "category": "Plat principal"
+  }
+]
