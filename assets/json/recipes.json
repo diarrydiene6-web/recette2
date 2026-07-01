@@ -1,14 +1,5 @@
 [
-  {
-    "id": "1",
-    "name": "Thiébou Guinar",
-    "summary": "Riz au poulet traditionnel sénégalais.",
-    "description": "Le thiébou guinar est un plat à base de riz, poulet et légumes. Préparé avec amour.",
-    "ingredients": ["Riz", "Poulet", "Oignons", "Huile", "Marché Diagne", "Aubergine"],
-    "steps": ["Préparer les ingrédients", "Faire la sauce", "Cuire le riz", "Servir chaud"],
-    "imagePath": "assets/images/ThiébouGuinar.jpg",
-    "category": "Plat principal"
-  },
+
   {
     "id": "2",
     "name": "Soupe de Légumes",
