@@ -29,36 +29,6 @@ final recipeProvider = FutureProvider<List<Recipe>>((ref) async {
   return recipes;
 });
 
-// --- CRUD ---
-
-class RecipeRepository {
-  final Ref ref;
-  RecipeRepository(this.ref);
-
-  Box<Recipe> get _box => ref.read(recipeBoxProvider);
-
-  Future<void> addRecipe(Recipe recipe) async {
-    await _box.put(recipe.id, recipe);
-    ref.invalidate(recipeProvider);
-  }
-
-  Future<void> updateRecipe(Recipe recipe) async {
-    await _box.put(recipe.id, recipe);
-    ref.invalidate(recipeProvider);
-  }
-
-  Future<void> deleteRecipe(String id) async {
-    await _box.delete(id);
-    ref.invalidate(recipeProvider);
-  }
-}
-
-final recipeRepositoryProvider = Provider<RecipeRepository>((ref) {
-  return RecipeRepository(ref);
-});
-
-// --- Recherche ---
-
 class SearchQueryNotifier extends Notifier<String> {
   @override
   String build() => '';
